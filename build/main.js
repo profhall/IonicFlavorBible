@@ -102,6 +102,8 @@ var HomePage = (function () {
     };
     HomePage.prototype.filterItems = function (searchterm) {
         var _this = this;
+	console.log("Printing 'this' :: " this);    
+	console.log("Printing 'searchterm' :: " searchterm);    
         this.list = [];
         var ingredient = false;
         var dish = false;
