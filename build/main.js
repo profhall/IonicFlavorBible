@@ -182,7 +182,7 @@ var HomePage = (function () {
     };
     HomePage.prototype.getDataFromFirebase = function (letter) {
         var _this = this;
-        //console.log(letter);
+        console.log(letter);
         this.selectedItem = null;
         this.BR = null;
         this.FA = null;
